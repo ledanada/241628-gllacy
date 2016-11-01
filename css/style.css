@@ -1,3 +1,7 @@
 body {
   background-color: #849d8f
 }
+
+fieldset {
+  display: none;
+}
