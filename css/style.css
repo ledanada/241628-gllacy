@@ -13,6 +13,8 @@ h1 {
   color: white;
   font-weight: bold;
   font-family: 'roboto';
+  text-align: center;
+  margin-top: -279px;
 }
 
 h2 {
@@ -23,35 +25,38 @@ h2 {
   font-family: 'roboto';
 }
 
-header {
-  min-height: 110px;
+.header {
+  height: 112px;
   width: 900px;
   margin: 0 auto;
-  background: red;
+  /*background: red;*/
 }
 
 .logo {
-  float: left;
   width: 154px;
-  height: 64px;
-  margin-left: 15px;
-  margin-right: 38px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.main-navigation {
+  float: right;
+  padding-right: 20px;
+  width: 681px;
 }
 
 .main-navigation li {
-  width: 682px;
   display: inline;
-  min-height: 33px;
-  margin-top: 23px;
 }
 
 .header-info {
   float: right;
-  width: 187px;
-  text-align: right;
+  width: 170px;
+  height: 41px;
   margin-right: 20px;
   font-weight: bold;
-  padding-top: 16px;
+  text-align: right;
+  line-height: 24px;
 }
 
 .header-info p {
@@ -60,5 +65,165 @@ header {
 
 .header-info p span {
   font-size: 22px;
-  line-height: 24px;
+}
+
+.main {
+  width: 900px;
+  margin: 0 auto;
+/*  background: green;*/
+}
+
+.slider img {
+    margin-top: -29px;
+    margin-left: 129px;
+}
+
+.slider .slider-switch {
+  float: left;
+  width: 80px;
+  height: 65px;
+  margin-left: 20px;
+}
+
+.slider button {
+  float: left;
+  width: 280px;
+  height: 65px;
+  margin-left: 210px;
+  margin-right: 210px;
+}
+
+.boxes {
+  height: 230px;
+  clear: both;
+/*  background-color: red;*/
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.box-left {
+  float: left;
+  width: 420px;
+  height: 230px;
+  /*background-color: grey;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.box-right {
+  float: left;
+  width: 420px;
+  height: 230px;
+  /*background-color: grey;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.box-left button {
+  float: right;
+  width: 165px;
+  height: 44px;
+}
+
+.box-right button {
+  float: right;
+  width: 165px;
+  height: 44px;
+}
+
+.catalog {
+  padding-left: 15px;
+}
+
+.catalog-hit-item {
+  display: inline-block;
+  vertical-align: top;
+  /*background-color: black;*/
+}
+
+.catalog-hit-item {
+  width: 200px;
+  min-height: 315px;
+  margin-right: 20px;
+  box-sizing: content-box;
+}
+
+.catalog-hit-item:last-child {
+  margin-right: 0;
+}
+
+.catalog-hit-item .photo-item {
+  margin-top: -61px;
+}
+
+.catalog-hit-item p {
+  width: inherit;
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -47px;
+}
+
+.catalog-hit-item .name {
+  display: block;
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+}
+
+.catalog-hit-item p span {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+/* не могу понять, что с блоком не так, как все уместить в блок дискрипшн */
+
+.description {
+  width: 860px;
+  height: 372px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
+  background-color: green;
+  clear: both;
+}
+
+.description .description-left {
+  float: left;
+  width: 410px;
+  margin-top: 0px;
+}
+
+.description .description-right {
+  float: right;;
+  width: 410px;
+}
+
+.description p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+
+
+footer {
+  width: 900px;
+  margin: 0 auto;
+  background: red;
 }
